@@ -235,7 +235,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Запуск бота"""
     # Вставьте ваш токен от BotFather
-    TOKEN = "ВАШ_ТОКЕН_БОТА"
+    TOKEN = "8508199679:AAHIG6rVCKvszk2TDnrI6TcS2EaRFcsS8oQ"
     
     # Создаем Application
     application = Application.builder().token(TOKEN).build()
@@ -270,4 +270,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
